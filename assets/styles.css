@@ -1,4 +1,4 @@
-﻿.animate-spin {
+.animate-spin {
 	-moz-animation: spin 2s infinite linear;
 	-o-animation: spin 2s infinite linear;
 	-webkit-animation: spin 2s infinite linear;
@@ -992,7 +992,7 @@ html {
 	}
 }
 .css-margin-bottom {
-	margin-bottom: 1.25rem;
+	margin-bottom: 1.25rem !important;
 	margin-left: auto;
 	margin-right: auto
 }
@@ -2082,9 +2082,11 @@ section.location div.location-address {
 }
 @media (min-width: 43.75em) {
 	section.location div.location-address {
-		float: left;
-		width: 50%;
-		font-size: 1.1rem
+		/*float: left;
+		width: 50%;*/
+		font-size: 1.1rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media (min-width: 64em) {
